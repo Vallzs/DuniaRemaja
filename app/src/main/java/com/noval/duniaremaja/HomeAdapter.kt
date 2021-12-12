@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.grid_item.view.*
 
-class Adapter(var list: ArrayList<DataModel>) : RecyclerView.Adapter<Adapter.Viewholder>() {
+class HomeAdapter(var list: ArrayList<Home>) : RecyclerView.Adapter<HomeAdapter.Viewholder>() {
     class Viewholder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var image_poster = itemView.image_poster
         var text_judul = itemView.text_judul
